@@ -43,6 +43,7 @@
       "last 1 safari version"
     ]
   },
+  "node" : "16.14.1" ,
   "main": "index.js",
   "devDependencies": {
     "netlify-cli": "^10.1.0"
