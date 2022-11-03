@@ -6,8 +6,8 @@ import Covid from "../Sections/covid"
 const CardsRecursos = () => (
    <div>
   <div className="ed-grid caja-fija">   
-      <div className="ed-grid s-grid-3 lg-grid-4 xl-grid-3 fijo">
-      
+      <div className="ed-grid s-grid-3 lg-grid-4 xl-grid-4 fijo" >
+               
          <a className="button light-color " href="#Lineamientos">Lineamientos</a>
          <a className="button light-color " href="#Memos">Memos</a>
          <a className="button light-color " href="#extensiones">Extensiones</a>
@@ -118,7 +118,12 @@ const CardsRecursos = () => (
 
       <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-6">
       <a name="Lineamientos" className="myanchor"></a> 
-      <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Lineamientos Técnicos</h2>           
+      <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Lineamientos Técnicos</h2>    
+
+      <RecursosCard nombre="Lineamientos Técnicos" 
+      subt="3er Refuerzo Covid"
+      image="https://drive.google.com/uc?export=download&id=1_obQxbZmGyH9InceutsGdYD0mn_bGFdQ"
+      ink="https://drive.google.com/file/d/1st9JiEg_uSMq_ACV1J3kwciyh8jakCYz/view?usp=sharing"/>       
       
       <RecursosCard nombre="Lineamientos Técnicos." 
       subt="Sarampion, Rubeola, Paperas y Poliomielitis."
@@ -137,7 +142,7 @@ const CardsRecursos = () => (
    pages="28"
    link="https://drive.google.com/file/d/1r_S0kEiW9ZgidSR_h6rajjJq4HLPv0oL/view?usp=sharing"/>
            
-           <RecursosCard nombre="Lineamientos Técnicos" 
+      <RecursosCard nombre="Lineamientos Técnicos" 
    subt="Segundo Refuerzo."
    image="https://drive.google.com/uc?export=download&id=1vJmij8oePphbdDK-JFzlvY6Jh1g1gVsM" 
    pages="30"
@@ -343,7 +348,10 @@ const CardsRecursos = () => (
       <div className="ed-grid s-grid-2 lg-grid-4 xl-grid-6">
       <a name="Circulares" className="myanchor"></a>
       <h2 className='s-cols-2 m-cols-4 xl-cols-6'> Circulares</h2>      
-
+      <RecursosCard nombre="Circular 3er Refuerzo Covid" 
+      subt="02-11-22"
+      image="https://drive.google.com/uc?export=download&id=1uJKAgmSVz4DMQ1bxvgTdMacD8xQs67E7"
+      link="https://drive.google.com/file/d/1UIX2fH4AH7gg20Sk0ZnYHLQoeMF90S7T/view?usp=sharing"/>
                
       <RecursosCard nombre="Moderna Pediátrica." 
       subt="6 m a 2 años."
